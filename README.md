@@ -1,13 +1,16 @@
 # Interlock [![Build Status](https://travis-ci.org/ehazlett/interlock.svg?branch=master)](https://travis-ci.org/ehazlett/interlock)
+(For ARM based servers - for original checkout https://github.com/ehazlett/interlock)
 Dynamic, event-driven extension system using [Swarm](https://github.com/docker/swarm).  Extensions include HAProxy and Nginx for dynamic load balancing.
 
-The recommended release is `ehazlett/interlock:1.3.0`
+The recommended release is `cmosh/interlock:arm-v1.3`
 
 # Quickstart
 For a quick start with Compose, see the [Swarm Example](docs/examples/nginx-swarm-machine).
 
 # Documentation
 To get started with Interlock view the [Documentation](docs).
+* For personal reference, https://cdn.rawgit.com/cmosh/508d688e19aa73aa8e5f88b6b40bb3a5/raw/6308744822d01cc172cd6eb349e9ac5099bc318e/interlock.conf
+
 
 # Building
 To build a local copy of Interlock, you must have the following:
