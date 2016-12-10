@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM armhf/alpine:latest
 RUN apk add -U iptables
 COPY cmd/interlock/interlock /bin/interlock
 WORKDIR /bin

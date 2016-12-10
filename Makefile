@@ -1,11 +1,11 @@
 BUILDTAGS=interlock
 CGO_ENABLED=0
 GOOS=linux
-GOARCH=amd64
+GOARCH=arm
 COMMIT=`git rev-parse --short HEAD`
 APP=interlock
-REPO?=ehazlett/$(APP)
-TAG?=latest
+REPO?=cmosh/$(APP)
+TAG?=arm-latest
 BUILD?=-dev
 
 all: image

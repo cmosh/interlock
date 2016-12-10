@@ -1,4 +1,4 @@
-FROM golang:1.6-alpine
+FROM cmosh/golang-arm
 RUN apk add -U git make curl
 RUN go get github.com/Masterminds/glide
 ENV DOCKER_VERSION 1.10.3
