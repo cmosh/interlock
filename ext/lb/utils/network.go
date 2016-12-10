@@ -8,7 +8,7 @@ import (
 	"github.com/docker/engine-api/types"
 	ctypes "github.com/docker/engine-api/types/container"
 	"github.com/docker/go-connections/nat"
-	"github.com/ehazlett/interlock/ext"
+	"github.com/cmosh/interlock/ext"
 )
 
 func OverlayEnabled(config *ctypes.Config) (string, bool) {

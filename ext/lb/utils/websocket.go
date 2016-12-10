@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	ctypes "github.com/docker/engine-api/types/container"
-	"github.com/ehazlett/interlock/ext"
+	"github.com/cmosh/interlock/ext"
 )
 
 func WebsocketEndpoints(config *ctypes.Config) []string {

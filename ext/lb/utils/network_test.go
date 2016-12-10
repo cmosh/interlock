@@ -7,7 +7,7 @@ import (
 	ctypes "github.com/docker/engine-api/types/container"
 	ntypes "github.com/docker/engine-api/types/network"
 	"github.com/docker/go-connections/nat"
-	"github.com/ehazlett/interlock/ext"
+	"github.com/cmosh/interlock/ext"
 )
 
 func TestUseOverlay(t *testing.T) {
