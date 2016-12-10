@@ -1,7 +1,7 @@
 package nginx
 
 import (
-	"github.com/ehazlett/interlock/config"
+	"github.com/cmosh/interlock/config"
 )
 
 type Server struct {

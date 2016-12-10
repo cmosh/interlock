@@ -3,8 +3,8 @@ package utils
 import (
 	"testing"
 
+	"github.com/cmosh/interlock/ext"
 	ctypes "github.com/docker/engine-api/types/container"
-	"github.com/ehazlett/interlock/ext"
 )
 
 func TestBackendOptions(t *testing.T) {

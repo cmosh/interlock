@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/version"
 	"github.com/docker/engine-api/client"
-	"github.com/ehazlett/interlock/version"
 )
 
 const (

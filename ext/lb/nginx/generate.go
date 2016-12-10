@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/cmosh/interlock/ext/lb/utils"
 	"github.com/docker/engine-api/types"
-	"github.com/ehazlett/interlock/ext/lb/utils"
 	"golang.org/x/net/context"
 )
 

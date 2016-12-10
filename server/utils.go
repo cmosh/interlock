@@ -3,8 +3,8 @@ package server
 import (
 	"strings"
 
+	"github.com/cmosh/interlock/client"
 	engineClient "github.com/docker/engine-api/client"
-	"github.com/ehazlett/interlock/client"
 )
 
 func (s *Server) getDockerClient() (*engineClient.Client, error) {

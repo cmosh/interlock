@@ -8,15 +8,15 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/config"
+	"github.com/cmosh/interlock/server"
+	"github.com/cmosh/interlock/version"
 	"github.com/codegangsta/cli"
 	"github.com/docker/docker/pkg/tlsconfig"
 	"github.com/docker/libkv"
 	kvstore "github.com/docker/libkv/store"
 	"github.com/docker/libkv/store/consul"
 	"github.com/docker/libkv/store/etcd"
-	"github.com/ehazlett/interlock/config"
-	"github.com/ehazlett/interlock/server"
-	"github.com/ehazlett/interlock/version"
 )
 
 const (
@@ -169,7 +169,7 @@ func runAction(c *cli.Context) {
 		case os.IsNotExist(err):
 			log.Errorf("Missing Interlock configuration: file=%s", configPath)
 			log.Error("Use the run --config option to set a custom location for the configuration file")
-			log.Error("Examples of an Interlock configuration file: url=https://github.com/ehazlett/interlock/tree/master/docs/examples")
+			log.Error("Examples of an Interlock configuration file: url=https://github.com/cmosh/interlock/tree/master/docs/examples")
 			log.Fatalf("config not found: file=%s", configPath)
 		case err == nil:
 			data = string(d)
@@ -179,7 +179,7 @@ func runAction(c *cli.Context) {
 	}
 
 	if data == "" {
-		log.Error("Examples of Interlock configuration: url=https://github.com/ehazlett/interlock/blob/master/docs/configuration.md")
+		log.Error("Examples of Interlock configuration: url=https://github.com/cmosh/interlock/blob/master/docs/configuration.md")
 		log.Fatal("You must specify a config from a file, environment variable, or key value store")
 	}
 

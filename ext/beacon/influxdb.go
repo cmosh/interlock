@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ehazlett/interlock/config"
+	"github.com/cmosh/interlock/config"
 	influx "github.com/influxdata/influxdb/client/v2"
 )
 

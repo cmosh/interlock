@@ -8,7 +8,7 @@ import (
 	"github.com/docker/engine-api/client"
 	"github.com/docker/engine-api/types"
 	etypes "github.com/docker/engine-api/types/events"
-	"github.com/ehazlett/interlock/config"
+	"github.com/cmosh/interlock/config"
 	"golang.org/x/net/context"
 )
 
