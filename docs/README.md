@@ -10,3 +10,5 @@ To get started with Interlock, see [Getting Started](getting_started.md)
 # Examples
 There are examples using [Docker Compose](https://docs.docker.com/compose/)
 for both Nginx and HAProxy in the [examples](examples) directory.
+For personal reference, https://cdn.rawgit.com/cmosh/508d688e19aa73aa8e5f88b6b40bb3a5/raw/6308744822d01cc172cd6eb349e9ac5099bc318e/interlock.conf
+
