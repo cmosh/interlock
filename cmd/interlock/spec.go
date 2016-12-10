@@ -5,8 +5,8 @@ import (
 
 	"github.com/BurntSushi/toml"
 	log "github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/config"
 	"github.com/codegangsta/cli"
-	"github.com/ehazlett/interlock/config"
 )
 
 var cmdSpec = cli.Command{

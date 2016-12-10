@@ -3,11 +3,11 @@ package utils
 import (
 	"testing"
 
+	"github.com/cmosh/interlock/ext"
 	"github.com/docker/engine-api/types"
 	ctypes "github.com/docker/engine-api/types/container"
 	ntypes "github.com/docker/engine-api/types/network"
 	"github.com/docker/go-connections/nat"
-	"github.com/ehazlett/interlock/ext"
 )
 
 func TestUseOverlay(t *testing.T) {

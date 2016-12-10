@@ -1,8 +1,8 @@
 package utils
 
 import (
+	"github.com/cmosh/interlock/ext"
 	ctypes "github.com/docker/engine-api/types/container"
-	"github.com/ehazlett/interlock/ext"
 )
 
 func Domain(config *ctypes.Config) string {

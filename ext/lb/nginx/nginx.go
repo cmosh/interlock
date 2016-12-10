@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 
 	"github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/config"
 	"github.com/docker/engine-api/client"
 	"github.com/docker/engine-api/types"
 	etypes "github.com/docker/engine-api/types/events"
-	"github.com/ehazlett/interlock/config"
 	"golang.org/x/net/context"
 )
 

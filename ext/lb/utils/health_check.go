@@ -3,8 +3,8 @@ package utils
 import (
 	"strconv"
 
+	"github.com/cmosh/interlock/ext"
 	ctypes "github.com/docker/engine-api/types/container"
-	"github.com/ehazlett/interlock/ext"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"os"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/version"
 	"github.com/codegangsta/cli"
-	"github.com/ehazlett/interlock/version"
 )
 
 func main() {

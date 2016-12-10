@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
+	"github.com/cmosh/interlock/config"
+	"github.com/cmosh/interlock/utils"
 	"github.com/docker/engine-api/client"
 	"github.com/docker/engine-api/types"
 	etypes "github.com/docker/engine-api/types/events"
-	"github.com/ehazlett/interlock/config"
-	"github.com/ehazlett/interlock/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/net/context"
 )

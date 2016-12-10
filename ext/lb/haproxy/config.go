@@ -1,7 +1,7 @@
 package haproxy
 
 import (
-	"github.com/ehazlett/interlock/config"
+	"github.com/cmosh/interlock/config"
 )
 
 type ContextRoot struct {
