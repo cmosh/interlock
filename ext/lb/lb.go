@@ -18,11 +18,11 @@ import (
 	"github.com/cmosh/interlock/ext/lb/haproxy"
 	"github.com/cmosh/interlock/ext/lb/nginx"
 	"github.com/cmosh/interlock/utils"
-	"github.com/cmosh/ttlcache"
 	"github.com/docker/engine-api/client"
 	"github.com/docker/engine-api/types"
 	etypes "github.com/docker/engine-api/types/events"
 	ntypes "github.com/docker/engine-api/types/network"
+	"github.com/ehazlett/ttlcache"
 	"golang.org/x/net/context"
 )
 
